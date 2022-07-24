@@ -91,7 +91,7 @@ button {
     background-color: #3882f6;
     border: 2px solid #3882f6;
     padding: 0.5rem 1.5rem;
-    border-radius: 0.25rem;
+    border-radius: 0.5rem;
     font-size: 1.125rem;
     line-height: 150%;
     text-align: center;
@@ -156,4 +156,40 @@ button:hover {
     flex-direction: column;
     gap: 0.5rem;
     padding: 4rem 16rem;
+}
+
+.ctabox {
+    padding: 4rem 10rem;
+}
+
+.rounded-box {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 1rem;
+    padding: 2rem 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rounded-box button {
+    background-color: #1f2937;
+    border: 2px solid #1f2937;
+}
+
+.rounded-box button:hover {
+    background-color: #1f2937;
+    border: 2px solid #f9faf8;
+}
+
+.rb-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 10rem;
+    background-color: #1f2937;
+    color: #f9faf8;
 }
